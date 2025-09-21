@@ -1,9 +1,9 @@
 from flask import Flask, jsonify, request
 import random
 import string
-
+from flask_cors import CORS
 app = Flask(__name__)
-
+CORS(app) 
 def generate_password(n=12):
     # Define character sets for each requirement
     uppercase = string.ascii_uppercase
@@ -40,3 +40,4 @@ def get_password():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
