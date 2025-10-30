@@ -2,7 +2,7 @@
 
 Welcome to the Password Generator API! This API allows you to generate strong passwords with specified lengths using Python Flask and jsonify.
 
-This is my first contribution.
+This is my first contribution to open source.
 
 ## API Endpoint
 
