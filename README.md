@@ -1,6 +1,5 @@
 # Password Generator API
 
-Welcome to the Password Generator API! This API allows you to generate strong passwords with specified lengths using Python Flask and jsonify.
 
 ## API Endpoint
 
